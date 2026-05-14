@@ -1,0 +1,21 @@
+name: MarisTpa
+version: '1.0'
+main: com.maris7.tpa.MarisTpaPlugin
+api-version: '1.21'
+folia-supported: true
+author: maris7
+softdepend: [MarisSettings]
+commands:
+  tpa:
+    usage: /tpa <player>
+  tpahere:
+    usage: /tpahere <player>
+  tpaccept:
+    usage: /tpaccept [player]
+  tpacancel:
+    usage: /tpacancel
+  tpdeny:
+    usage: /tpdeny [player]
+    aliases: [tpadeny]
+  tpauto:
+    usage: /tpauto

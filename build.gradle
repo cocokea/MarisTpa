@@ -1,0 +1,27 @@
+plugins { id 'java' }
+
+group = 'com.maris7'
+version = '1.0'
+
+def jarBaseName = 'MarisTpa'
+
+java {
+    toolchain { languageVersion = JavaLanguageVersion.of(25) }
+}
+
+dependencies {
+    compileOnly 'org.jetbrains:annotations:24.1.0'
+    compileOnly 'io.papermc.paper:paper-api:26.1.2.build.+'
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+    options.release = 25
+}
+
+tasks.jar {
+    archiveBaseName.set(jarBaseName)
+    archiveVersion.set('')
+    archiveClassifier.set('')
+}
+

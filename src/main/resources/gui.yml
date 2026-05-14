@@ -1,0 +1,45 @@
+send:
+  title: "&8ᴄᴏɴғɪʀᴍ ʀᴇǫᴜᴇsᴛ "
+accept:
+  title: "&7ᴀᴄᴄᴇᴘᴛ ʀᴇǫᴜᴇsᴛ"
+items:
+  cancel:
+    slot: 10
+    material: RED_STAINED_GLASS_PANE
+    name: "&#FF0000ᴄᴀɴᴄᴇʟ"
+    lore:
+      - "&fClick to cancel the teleport"
+  location:
+    slot: 12
+    name: "&#00FF6Eʟᴏᴄᴀᴛɪᴏɴ"
+    lore:
+      - "&7%world%"
+  player:
+    slot: 13
+    name: "&#00FF6Eᴘʟᴀʏᴇʀ"
+    lore:
+      - "&7%player%"
+  region:
+    slot: 14
+    material: FEATHER
+    name: "&#00FF6Eʀᴇɢɪᴏɴ"
+    lore:
+      - "&7Singapore &7(&#FFEE00%ping%ms&7)"
+  confirm-send:
+    slot: 16
+    material: LIME_STAINED_GLASS_PANE
+    name: "&aᴄᴏɴғɪʀᴍ"
+    lore:
+      tpa:
+        - "&fClick to send %player% a tpa request"
+      tpahere:
+        - "&fClick to send %player% a tpahere request"
+  confirm-accept:
+    slot: 16
+    material: LIME_STAINED_GLASS_PANE
+    name: "&aᴄᴏɴғɪʀᴍ"
+    lore:
+      tpa:
+        - "&fClick to teleport %player% to you"
+      tpahere:
+        - "&fClick to teleport to %player%"

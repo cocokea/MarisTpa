@@ -1,0 +1,16 @@
+region: Singapore
+request-expire-seconds: 180
+teleport-delay-seconds: 5
+tpauto:
+  blacklisted-worlds:
+    - afk
+    - spawn
+    - duel
+worlds:
+  world: Overworld
+  world_nether: Nether
+  world_the_end: The End
+world-materials:
+  world: GRASS_BLOCK
+  world_nether: NETHERRACK
+  world_the_end: END_STONE
