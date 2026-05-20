@@ -40,7 +40,10 @@ public final class MarisTpaPlugin extends JavaPlugin implements Listener, Comman
     private SettingsHook settingsHook;
 
     @Override public void onEnable() {
-        mergeResourceDefaults("config.yml");
+        
+        saveDefaultConfig();
+        MarisPluginStartup.bootstrap(this, "cocokea/MarisTpa");
+mergeResourceDefaults("config.yml");
         reloadConfig();
         mergeResourceDefaults("message.yml");
         mergeResourceDefaults("gui.yml");

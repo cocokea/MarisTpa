@@ -1,3 +1,5 @@
+update-checker: true
+
 region: Singapore
 request-expire-seconds: 180
 teleport-delay-seconds: 5
